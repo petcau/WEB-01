@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(192, 225, 225);
+}
+h1{
+    text-align: center;
+}
+section{
+    
+    background-color: aliceblue;
+    width: 300px;
+    height: 350px;
+    padding: 5px;
+    margin: auto;
+    border-radius: 10px;
+}
+div#ope{
+    background-color: lightgrey;
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    margin: auto;
+}
+div#res{    
+    background-color: rgb(15, 71, 83);
+    text-align: center;
+    color: white;
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    margin: auto;
+}
+p#txtResultado{
+    text-align: left;
+    padding-left: 30px;
+}
+footer{
+    text-align: center;
+}
