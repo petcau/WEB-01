@@ -11,6 +11,13 @@ let txtStatus = document.getElementById("status");
 btnIniciar.addEventListener("click", novoJogo);
 btnChutar.addEventListener("click", chutou);
 
+numeroChute.addEventListener("keydown", function(event) {
+  if (event.key === "Enter") {
+    chutou(); 
+  }
+});
+
+
 btnChutar.disabled = true;
 numeroChute.disabled = true;
 
