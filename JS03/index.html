@@ -3,22 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo</title>
+    <title>Jogo de Adivinhar</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <header>
-       <h1>Modelo</h1>
+       <h1>Adivinhe o Número</h1>
     </header>
     <section>
-        <div>
-            <p><strong>Números</strong></p>
-            Número 1: <input type="number" id="num1"> <br><br>
-            Número 2: <input type="number" id="num2"> <br><br>
-            <button onclick="calcular()">Calcular</button>
+        <div id="status-bar">
+            <p id="status">+ + + + + + + + + +</p>
         </div>
-        <div>
-            <p><strong>Resultados</strong></p>
+        <div id="numero">
+            <p>Número secreto entre 1 e 100.</p>
+            <button id="btIniciar" >Iniciar</button> <br> <br>
+            Palpite: <input type="number" id="num1"> <br><br>
+            
+            <button id="btChutar">Chutar</button>
+        </div>
+        <div id="resultado">
+            <p><strong>Histórico de Palpites</strong></p>
             <p id="txtResultado">...</p>
         </div>
 
